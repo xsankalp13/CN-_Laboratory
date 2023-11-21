@@ -1,0 +1,17 @@
+1.
+ssl
+
+2.
+ssl.handshake.type == 1 // it will say hello clinet from server
+
+3.
+ssl.handshake.type == 2 // it will say hello server from clinet
+
+4.
+ssl.handshake.type == 11 // it will show the certificate will show in trasmission control layer
+
+5. 
+ssl.handshake.type == 16 // it will show the public key tranport layer
+
+6. 
+ssl.hand.type == 21 // Encription alter

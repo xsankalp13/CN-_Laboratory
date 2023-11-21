@@ -1,0 +1,19 @@
+1.
+tcp 
+
+2.
+tcp.port == 443 // for http
+
+3.
+//flags of tcp
+tcp.flags.push == 1
+tcp.flags.syn == 1
+tcp.flags.reset == 1
+
+// to so IO graph
+tcp.flags.push == 1
+statictis -> I/O graph
+
+4.
+//to show the count
+statictis -> conversation
